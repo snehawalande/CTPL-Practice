@@ -1,1 +1,82 @@
-nothing is here just practoc.....
+Author: snehawalande <walandesneha7@gmail.com>
+Date:   Thu Feb 22 17:13:53 2024 +0530
+
+    sneha added fil d
+
+commit 36c3c1465fbfa3bb04f8e9ef0a73c11df75a8b3c (origin/master, origin/HEAD, master)
+Merge: ded4ad9 a5fc3db
+Author: ♚ PH⑦ de Soria™♛ <hi@ph7.me>
+Date:   Tue Feb 6 20:02:59 2024 +1100
+
+    Merge pull request #104 from Shuvamdt/master
+
+    Fixed bug using .equals()
+
+commit a5fc3db6404fb28228be6e48b3817e1f04870cb4
+Author: Shuvamdt <shuvamdt1230@gmail.com>
+Date:   Sat Dec 23 23:32:55 2023 +0530
+
+    Fixed bug using .equals()
+
+
+LENOVO@DESKTOP-3AB2MBQ MINGW64 ~/Desktop/demo/simple-java-calculator (sneha)
+$ git reset ^[[200~7e843ddea2e39e0dbf09eab3c568dcf323a24ece
+
+LENOVO@DESKTOP-3AB2MBQ MINGW64 ~/Desktop/demo/simple-java-calculator (sneha)
+$ git reset 7e843ddea2e39e0dbf09eab3c568dcf323a24ece
+
+LENOVO@DESKTOP-3AB2MBQ MINGW64 ~/Desktop/demo/simple-java-calculator (sneha)
+$ git status
+On branch sneha
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        neha.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+LENOVO@DESKTOP-3AB2MBQ MINGW64 ~/Desktop/demo/simple-java-calculator (sneha)
+$ git add .
+
+LENOVO@DESKTOP-3AB2MBQ MINGW64 ~/Desktop/demo/simple-java-calculator (sneha)
+$ git stash
+Saved working directory and index state WIP on sneha: 7e843dd sneha added fil d
+
+LENOVO@DESKTOP-3AB2MBQ MINGW64 ~/Desktop/demo/simple-java-calculator (sneha)
+$ git log
+commit 7e843ddea2e39e0dbf09eab3c568dcf323a24ece (HEAD -> sneha)
+Author: snehawalande <walandesneha7@gmail.com>
+Date:   Thu Feb 22 17:13:53 2024 +0530
+
+    sneha added fil d
+
+commit 36c3c1465fbfa3bb04f8e9ef0a73c11df75a8b3c (origin/master, origin/HEAD, master)
+Merge: ded4ad9 a5fc3db
+Author: ♚ PH⑦ de Soria™♛ <hi@ph7.me>
+Date:   Tue Feb 6 20:02:59 2024 +1100
+
+    Merge pull request #104 from Shuvamdt/master
+
+    Fixed bug using .equals()
+
+commit a5fc3db6404fb28228be6e48b3817e1f04870cb4
+Author: Shuvamdt <shuvamdt1230@gmail.com>
+Date:   Sat Dec 23 23:32:55 2023 +0530
+
+    Fixed bug using .equals()
+
+commit ded4ad928051c1276eaec10d03c142a109881634
+Merge: 16a5766 59936e9
+Author: ♚ PH⑦ de Soria™♛ <hi@ph7.me>
+Date:   Tue Mar 14 19:40:31 2023 +1100
+
+    Merge pull request #87 from af4092/AF-Test
+
+
+LENOVO@DESKTOP-3AB2MBQ MINGW64 ~/Desktop/demo/simple-java-calculator (sneha)
+$ git push origin sneha -f
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/snehawalande/Simple-Java-Calculator.git
+ + 306f86b...7e843dd sneha -> sneha (forced update)
+
+LENOVO@DESKTOP-3AB2MBQ MINGW64 ~/Desktop/demo/simple-java-calculator (sneha)
+$
